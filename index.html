@@ -73,7 +73,7 @@
                 <div class="explore-btn">
                     <div class="btn">
                         <div class="text">
-                            <a href="">Explore</a>
+                            <a href="#service">Explore</a>
                         </div>
                     </div>
                 </div>
@@ -94,28 +94,28 @@
                 <img src="images/service 1.png" alt="" width="100%">
             </div>
             <h3>Real Estate Management</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>We offer the service of Real Estate Management for the satisfaction of out client for a comfortable living.</p>
         </div>
         <div class="hold">
             <div class="service-img">
                 <img src="images/service 2.png" alt="" width="100%">
             </div>
             <h3>Land Properties</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>Offering a good and Affordable land Price for the Clients with a well Comfortable Environment.</p>
         </div>
         <div class="hold">
             <div class="service-img">
                 <img src="images/service 3.png" alt="" width="100%">
             </div>
             <h3>Constructions</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>Provide a Service of Construction with High Level of experience in Societal Development.</p>
         </div>
         <div class="hold">
             <div class="service-img">
                 <img src="images/service 4.png" alt="" width="100%">
             </div>
             <h3>Agricultural Agro Allied</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>Involved in Agricultural Agro Allied which includes poutery farming, livestock farming and Vegetables.</p>
         </div>
     </div>
 
@@ -125,28 +125,28 @@
                 <img src="images/service 5.png" alt="" width="100%">
             </div>
             <h3>Imports and Exports</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>We offer the Service of Importation and Exportation of Goods with a Trusted Assurance of Safety.</p>
         </div>
         <div class="hold">
             <div class="service-img">
                 <img src="images/service 8.png" alt="" width="100%">
             </div>
             <h3>General Contractors</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>We also carryout other Works to offer a satisfactisfiable Job presentation to our Clients</p>
         </div>
         <div class="hold">
             <div class="service-img">
                 <img src="images/service 6.png" alt="" width="100%">
             </div>
             <h3>Estate Management</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <p>We offer the service of Real Estate Management for the satisfaction of out client for a comfortable living.</p>
         </div>
         <div class="hold">
             <div class="service-img">
                 <img src="images/service 7.png" alt="" width="100%">
             </div>
-            <h3>Estate Management</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere consequuntur expedita consectetur.</p>
+            <h3>Constructions</h3>
+            <p>Provide a Service of Construction with High Level of experience in Societal Development.</p>
         </div>
     </div>
 
@@ -159,8 +159,16 @@
     <div class="about-hold">
         <div class="about-text">
             <h2>AMOHAF NIG. Limited</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo aliquam odit quidem dolore reprehenderit ad placeat nostrum dolor nobis impedit error nesciunt, ab vel quia minus eum repellendus modi.</p>
-            <button>Read More</button>
+            <div class="text-hold" id="textHold">
+                <p>> To carry on the Business of Real Estate, Landed Property, Property Managers, Property developers, Property Management.</p>
+                <p>> To Carry on the Business of Farming, Agro Allied poutery and Fisheries, fruit Farmer to carry on the Business of Manufacturing and Production of Livestock Feeds.</p>
+                <p>> To carry on the Business of Construction Services, Maintenance, make, acquire, lease, hire or work on Telephones, Roads, House, Pipeline, Bridges, Tanks and Storage accomodation.</p>
+                <p>> To Carry on the Business of Oil and Gas Exploration and Production, refinery acquisition, marketing of petroleum products of all grades.</p>
+                <p>> To carry on consultancy in areas of Business devellpment services including Business ideas scrutiny, analaysis and evaluation.</p>
+                <p>> To Borrow and Raise Money in such manner as the company shall deem fit and to secure the repayment of any Money Borrowed, raised or owning.</p>
+            </div>
+            <button id="moreBtn">Show More <i class="fas fa-plus"></i></button>
+            <button id="lessBtn">Show Less <i class="fas fa-minus"></i></button>
         </div>
 
         <div class="about-img">
@@ -199,7 +207,7 @@
         <div class="footer-group ">
             <div class="foot1 ">
                 <h3>AMOHAF NIG LIMITED</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt praesentium alias debitis iusto facilis fuga possimus nemo odit nostrum!</p>
+                <p>Dealer in Estate Management, Land Properties, Constructions and Agro Allied, Import & Exports and General Contractors.</p>
                 <button>Read  More</button>
             </div>
             <div class="foot2 ">
@@ -232,6 +240,9 @@
             <div class="foot4 ">
                 <h3>Company Reg. Number</h3>
                 <h3 class="rc-no ">RC: 1757954</h3>
+                <h4 class="rc-no ">
+                    <a href="mailto:amohafniglimited@gmail.com">amohafniglimited@gmail.com</a>
+                </h4>
             </div>
         </div>
         </div>
@@ -244,7 +255,7 @@
         const closeBtn = document.getElementById("closeBtn");
 
         openBtn.onclick = function() {
-            document.getElementById("closeBtn").style.display = "bloc ";
+            document.getElementById("closeBtn").style.display = "block";
             document.getElementById("openBtn").style.display = "none";
             document.getElementById("navDrop").style.height = "40vh";
             document.getElementById("navDrop").style.opacity = "1";
@@ -252,11 +263,11 @@
 
         }
         closeBtn.onclick = function() {
-            document.getElementById("closeBtn").style.display = "none ";
-            document.getElementById("openBtn").style.display = "block ";
-            document.getElementById("navDrop").style.height = "0vh ";
-            document.getElementById("navDrop").style.opacity = "0 ";
-            document.getElementById("navDrop").style.visibility = "hidden ";
+            document.getElementById("closeBtn").style.display = "none";
+            document.getElementById("openBtn").style.display = "block";
+            document.getElementById("navDrop").style.height = "0vh";
+            document.getElementById("navDrop").style.opacity = "0";
+            document.getElementById("navDrop").style.visibility = "hidden";
 
         }
 
@@ -268,6 +279,20 @@
                 backBtn.classList.remove("display");
             }
         });
+
+        const moreBtn = document.getElementById("moreBtn");
+        const lessBtn = document.getElementById("lessBtn");
+
+        moreBtn.onclick = function() {
+            document.getElementById("textHold").style.height = "95vh";
+            document.getElementById("moreBtn").style.display = "none";
+            document.getElementById("lessBtn").style.display = "block";
+        }
+        lessBtn.onclick = function() {
+            document.getElementById("textHold").style.height = "30vh";
+            document.getElementById("moreBtn").style.display = "block";
+            document.getElementById("lessBtn").style.display = "none";
+        }
     </script>
 </body>
 
